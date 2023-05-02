@@ -169,6 +169,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 98vw;
+    font-size: 12px;
 }
 
 .social-medias a {
@@ -182,4 +183,5 @@ body {
 
 .social-medias img {
     width: 25px;
+    border-radius: 5px;
 }

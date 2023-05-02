@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+    
+    .btns {
+        display: flex;
+        width: 768px;
+        position: relative;
+        left: calc(50% - 125px);
+    }    
+
+    #btn-blue, #btn-white {
+        height: 5.5vh;
+        width: 250px;
+    }    
+
+    .area-2 {
+        position: absolute;
+        margin-top: 30px;
+        left: calc(50% - 30%);
+        width: 60%;
+        height: 20vh;
+    }
+
+    .no-text img {
+        display: none;
+    }
+}
