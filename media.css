@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 376px) and (max-width: 768px) {
     .container {
         display: block;
     }
@@ -23,6 +23,62 @@
 
     .with-text {
         padding-bottom: 10px;
+    }
+    
+    #text2 {
+        height: 75%;
+    }
+    
+    #btn-copy {
+        height: 4vh;
+        width: 35%;
+        margin: 0 32%;
+    }
+    
+}
+
+@media only screen and (max-width: 375.99px) {
+    .container {
+        display: block;
+    }
+
+    .area-1 {
+        width: 80%;
+    }
+
+    .btns {
+        flex-direction: column;
+    }
+
+    #btn-blue, #btn-white {
+        margin-top: 15px;
+        width: 270px;
+    }
+
+    #btn-white {
+        margin-left: 0;
+    }
+
+    .area-2 {
+        width: 70%;
+        height: 17vh;
+        margin: 30px 15% 0 15%;
+    }
+
+    .no-text img {
+        display: none;
+    }
+
+    .no-text p:first-of-type {
+        font-size: 15px;
+    }
+
+    .no-text p + p {
+        font-size: 10px;
+    }
+
+    .with-text {
+        padding: 10px;
     }
     
     #text2 {

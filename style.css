@@ -54,8 +54,6 @@ body {
 
 .btns {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
     width: 100%;
 }
@@ -64,12 +62,12 @@ body {
     height: 6vh;
     border-radius: 50px;
     font-size: 17px;
+    width: 200px;
 }
 
 #btn-blue {
     color: #FFFFFF;
     background: #0A3871;
-    width: 200px;
 }
 
 #btn-blue:hover {
@@ -81,7 +79,6 @@ body {
 }
 
 #btn-white {
-    width: 200px;
     margin-left: 20px;
     color: #0A3871;
     background: #D8DFE8;
