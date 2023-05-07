@@ -2,28 +2,37 @@
     .container {
         display: block;
     }
-    
-    .btns {
-        display: flex;
-        width: 768px;
-        position: relative;
-        left: calc(50% - 125px);
-    }    
+
+    .area-1 {
+        width: 80%;
+    }
 
     #btn-blue, #btn-white {
-        height: 5.5vh;
-        width: 250px;
-    }    
+        width: 300px;
+    }
 
     .area-2 {
-        position: absolute;
-        margin-top: 30px;
-        left: calc(50% - 30%);
-        width: 60%;
-        height: 20vh;
+        width: 70%;
+        height: 17vh;
+        margin: 30px 15% 0 15%;
     }
 
     .no-text img {
         display: none;
     }
+
+    .with-text {
+        padding-bottom: 10px;
+    }
+    
+    #text2 {
+        height: 75%;
+    }
+    
+    #btn-copy {
+        height: 4vh;
+        width: 35%;
+        margin: 0 32%;
+    }
+    
 }
