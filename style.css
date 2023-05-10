@@ -103,7 +103,7 @@ body {
     border-radius: 25px
 }
 
-.no-text {
+#no-text {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -114,27 +114,27 @@ body {
     height: 100%;
 }
 
-.no-text img {
+#no-text img {
     width: 100%;
     margin-top: 20px;
 }
 
-.no-text p {
+#no-text p {
     margin: 20px;
 }
 
-.no-text p:first-of-type {
+#no-text p:first-of-type {
     font-size: 20px;
     color: #343A40;
     font-weight: bold;
 }
 
-.no-text p + p {
+#no-text p + p {
     font-size: 13px;
     color: #495057;
 }
 
-.with-text {
+#with-text {
     position: absolute;
     width: 98%;
     height: 100%;
@@ -166,7 +166,7 @@ body {
     scale: 1;
 }
 
-.foot {
+#foot {
     position: absolute;
     bottom: 0;
     margin-bottom: 0.5%;
